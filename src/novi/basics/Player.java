@@ -11,6 +11,7 @@ public class Player {
     // methoden: acties die de speler uit kan voeren
     //constructor
     public Player(String name, char token) {
+
         this.name = name;
         this.token = token;
             score = 0;
