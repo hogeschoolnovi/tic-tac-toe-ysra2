@@ -44,10 +44,9 @@ public class Game {
                     //player.score += 10;
                     // het nieuwe speelbord tonen
                     printBoard(board);
-
-
-
-
+                    // als het spel gewonnen is
+                    // tonen wie er gewonnen heeft (de actieve speler)
+                    // de actieve speler krijgt een punt
                     // de scores van de spelers tonen
                     // wanneer we in de laatste beurt zijn en niemand gewonnen heeft
                     // aantal keer gelijk spel ophogen
@@ -89,38 +88,10 @@ public class Game {
             System.out.print(board[fieldIndex] + " ");
             // als we het tweede veld geprint hebben of het vijfde veld geprint hebben
             // dan gaan we naar de volgende regel
-            if (fieldIndex == 2 || fieldIndex == 5) {
+            if(fieldIndex == 2 || fieldIndex == 5) {
                 System.out.println();
             }
         }
         System.out.println();
-
-            /*for (int gameBoardIndex1 = 1; gameBoardIndex1 < board.length; gameBoardIndex1++) {
-                for (int gameBoardIndex2 = 1; gameBoardIndex2 < board.length; gameBoardIndex2++) {
-                    {
-                        if (board[gameBoardIndex1] >= 1) {
-                        } if (board[gameBoardIndex2] == 0){
-                    }{
-                        final boolean gameOver = gameBoardIndex2 == 2 || gameBoardIndex2 == 5;
-                    }{
-                         System.out.println();
-                     }
-         }
-        }
-    } */
-
-            }
-
-
-
-
-    // als het spel gewonnen is
-    /*public boolean checkWhoWonTheGame(){
-        for (int i = 0; i < ; i++) {
-            
-        }
-        // tonen wie er gewonnen heeft (de actieve speler)
-
-        // de actieve speler krijgt een punt
-    } */
+    }
 }
